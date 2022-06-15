@@ -3,11 +3,17 @@
     <div class="form-group">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" class="form-control" wire:model="name">
+        @error( "name" )
+            <small class="text-danger">{{ $message }}</small>
+        @enderror
     </div>
 
     <div class="form-group">
         <label for="message">Mensaje</label>
         <textarea type="text" name="message" id="message" class="form-control" wire:model="message"></textarea>
+        @error( "message" )
+            <small class="text-danger">{{ $message }}</small>
+        @enderror
     </div>
 
     <button class="btn btn-primary" wire:click="sendMessage">Send Message</button>

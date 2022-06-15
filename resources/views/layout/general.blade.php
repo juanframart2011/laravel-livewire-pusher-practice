@@ -17,8 +17,8 @@
 
         @livewireStyles
         @livewireScripts
-
-        <title>LiveChat</title>
+        <script src="https://js.pusher.com/7.1/pusher.min.js"></script>
+        <title>LiveChat Livewire</title>
     </head>
     <body>
 
