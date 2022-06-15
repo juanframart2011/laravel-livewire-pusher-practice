@@ -2,6 +2,7 @@
 
 @section( "content" )
     
-    <h3>Chat</h3>
+    <h5 class="pb-0 mt-5"><strong>Live Chat With</strong></h5>
+    <h2 class="pt-0 mt-0"><strong>Laravel 7 + LiveWire + Pusher</strong></h2>
     @livewire( "chat-form" )
 @endsection
