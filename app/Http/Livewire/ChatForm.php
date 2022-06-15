@@ -10,7 +10,7 @@ class ChatForm extends Component
 
     public function mount(){
 
-        $this->name = "";
+        $this->name = "Lionel Messi";
     }
 
     public function render()
